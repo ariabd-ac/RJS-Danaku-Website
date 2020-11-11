@@ -1,0 +1,40 @@
+.navbar {
+  // background: linear-gradient(180deg, rgba(0, 0, 0, 0.65), transparent);
+  // height: 2rem;
+  // position: fixed;
+  // top: 0;
+  width: 100vw;
+  z-index: 10;
+  height: 5rem;
+  background-color: #138ee9;
+  .navbar__content {
+    // @media screen  (max-width: 1024px) {
+
+    // }
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 12.4rem;
+
+    .navbar__menu {
+      color: #fff;
+      display: inline-block;
+      font-size: 0.14rem;
+      font-weight: 700;
+      position: relative;
+      width: -webkit-fit-content;
+      width: fit-content;
+      width: -moz-fit-content;
+
+      .navbar__logo {
+        height: 3.5rem;
+      }
+    }
+  }
+}
+
+nav {
+  display: block;
+}
